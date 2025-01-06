@@ -5,6 +5,7 @@ from src.ngrams import generate_ngrams
 from src.web_request import get_span_labels_content
 nltk.download("stopwords")
 nltk.download("punkt")
+nltk.download("punkt_tab")
 
 
 def main():
